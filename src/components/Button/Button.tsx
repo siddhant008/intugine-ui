@@ -162,5 +162,4 @@ type ButtonProps = Readonly<{
 	text: string;
 	onClick: any;
 }>;
-const Button = (props: ButtonProps) => <button>{props.text}</button>;
-export default Button;
+export const Button = (props: ButtonProps) => <button>{props.text}</button>;
