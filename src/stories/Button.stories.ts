@@ -31,20 +31,17 @@ export const Primary: Story = {
 export const Secondary: Story = {
 	args: {
 		text: "Button",
-    color: 'secondary'
 	},
 };
 
 export const Large: Story = {
 	args: {
-		size: "large",
 		text: "Button",
 	},
 };
 
 export const Small: Story = {
 	args: {
-		size: "small",
 		text: "Button",
 	},
 };
